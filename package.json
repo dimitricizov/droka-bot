@@ -13,17 +13,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/An-Idiots-Guide/guidebot-class.git"
+    "url": "git+https://github.com/dimitricizov/droka-bot.git"
   },
-  "author": "Evelyne Lachance <eslachance@gmail.com> (http://evie.codes)",
-  "contributors": [
-    "York (http://anidiots.guide)"
-  ],
+  "author": "Dimitri Cizov",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/An-Idiots-Guide/guidebot-class/issues"
+    "url": "https://github.com/dimitricizov/droka-bot/issues"
   },
-  "homepage": "https://github.com/An-Idiots-Guide/guidebot-class#readme",
+  "homepage": "https://github.com/dimitricizov/droka-bot#readme",
   "dependencies": {
     "better-sqlite3": "^5.4.1",
     "chalk": "^2.4.1",
