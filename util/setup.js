@@ -5,10 +5,10 @@ const fs = require("fs");
 let baseConfig = fs.readFileSync("./util/setup_base.txt", "utf8");
 
 const defaultSettings = {
-  "prefix": "-",
+  "prefix": "?",
   "modLogChannel": "mod-log",
-  "modRole": "Moderator",
-  "adminRole": "Administrator",
+  "modRole": "Mod",
+  "adminRole": "Admin",
   "systemNotice": "true",
   "welcomeChannel": "welcome",
   "welcomeMessage": "Say hello to {{user}}, everyone! We all need a warm welcome sometimes :D",
