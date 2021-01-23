@@ -13,6 +13,10 @@ module.exports = class {
     // If welcome is off, don't proceed (don't welcome the user)
     if (settings.welcomeEnabled !== "true") return;
 
+    //add Role
+    var role = member.guild.roles.find("name", "D-Gang");
+    member.addRole(role);
+
     // Replace the placeholders in the welcome message with actual data
     const welcomeMessage = settings.welcomeMessage.replace("{{user}}", member.user.tag);
 
